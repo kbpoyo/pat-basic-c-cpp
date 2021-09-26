@@ -42,13 +42,13 @@ typedef struct person
  			strcpy(p[sum].age   , age);
  			sum++;
 		 }
-		 else if(string_to_int(age , 4) == 1814 && string_to_int(&age[5] , 2) > 9 || string_to_int(age , 4) == 1814 && string_to_int(&age[5] , 2) > 9 || string_to_int(age , 4) == 1814 && string_to_int(&age[5] , 2) == 9 && string_to_int(&age[8] , 2) >=6 )
+		 else if(string_to_int(age , 4) == 1814 && string_to_int(&age[5] , 2) > 9  || string_to_int(age , 4) == 1814 && string_to_int(&age[5] , 2) == 9 && string_to_int(&age[8] , 2) >=6 )
 		 {
 		 	strcpy(p[sum].name  , name);
  			strcpy(p[sum].age   , age);
  			sum++;
 		 }
-		 else if(string_to_int(age , 4) == 2014 && string_to_int(&age[5] , 2) < 9 || string_to_int(age , 4) == 2014 && string_to_int(&age[5] , 2) < 9 || string_to_int(age , 4) == 2014 && string_to_int(&age[5] , 2) == 9 && string_to_int(&age[8] , 2) <=6)
+		 else if(string_to_int(age , 4) == 2014 && string_to_int(&age[5] , 2) < 9  || string_to_int(age , 4) == 2014 && string_to_int(&age[5] , 2) == 9 && string_to_int(&age[8] , 2) <=6)
          {
          	strcpy(p[sum].name  , name);
  			strcpy(p[sum].age   , age);
